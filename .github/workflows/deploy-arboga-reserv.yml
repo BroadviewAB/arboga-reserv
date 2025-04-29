@@ -15,7 +15,7 @@ jobs:
 
     - uses: helsingborg-stad/municipio-deploy/4.0@master
       with:
-        deploy-host: ${{ secrets.lomp.broadview.online }}
+        deploy-host: ${{ secrets.DEPLOY_REMOTE_HOST_PROD }}
         deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PORT_DOMAIN_SE }}
         deploy-host-path: ${{ secrets.DEPLOY_REMOTE_PATH_DOMAIN_SE }}
         deploy-host-backup-path: ${{ secrets.DEPLOY_REMOTE_BACKUP_DIR_DOMAIN_SE }}
