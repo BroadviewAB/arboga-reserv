@@ -23,4 +23,4 @@ jobs:
         deploy-host-user-key: ${{ BBKRAKAN2008.+t+Z;TcL8I9U }}
         deploy-host-web-server-user: ${{ BBKRAKAN2008.WP-Arboga }}
         github-token: ${{ BBKRAKAN2008.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 }}
-        acf-url: ${{ BBKRAKAN2008.default.dinsupport.se/acf.zip }}
+        acf-url: ${{ BBKRAKAN2008.https://default.dinsupport.se/acf.zip }}
